@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9b3d1;
+}
+.container {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  height: fit-content;
+  width: fit-content;
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+input {
+  border: none;
+  outline: none;
+  height: 25px;
+  width: 100%;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+}
+.dropdowns {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+}
+img {
+  height: auto;
+  width: 30%;
+}
+.from div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid lightblue;
+}
+.to div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid lightblue;
+}
+#from,
+#to {
+  border: none;
+  outline: none;
+  padding: 5px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.result {
+  height: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  font: bolder;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.from {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 80%;
+  border: none;
+  outline: none;
+  background-color: aquamarine;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font: bolder;
+  cursor: pointer;
+  flex: 1;
+  margin: 1rem;
+}
+select option {
+  font-size: 0.8rem;
+  padding: 10px;
+  position: absolute;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  overflow: visible;
+}
