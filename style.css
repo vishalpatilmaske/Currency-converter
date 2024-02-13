@@ -46,6 +46,8 @@ img {
 
 .material-symbols-outlined {
   font-size: 3vw;
+  position: relative;
+  top: 5px;
 }
 .from div {
   display: flex;
@@ -97,4 +99,10 @@ button {
   font: bolder;
   cursor: pointer;
   margin: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .material-symbols-outlined {
+    font-size: 6vw;
+  }
 }
