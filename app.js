@@ -47,6 +47,7 @@ button.addEventListener("click", (evt) => {
   evt.preventDefault();
   let amount = document.querySelector(".input-data input");
   let amountValue = amount.value;
+
   // Check if amount is empty or not a positive number
   if (amountValue === "" || amountValue < 0) {
     amountValue = 1;
